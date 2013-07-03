@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<project default="">
+	<property name="src.dir" value="src"></property>
+	<property name="build.dir" value="target/classes"></property>
+	
+	<target name="compilar">
+		<javac srcdir="${src.dir}" destdir="${build.dir}"></javac>
+	</target>
+	
+</project>
